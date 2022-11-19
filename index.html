@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>swatch picker web component</title>
     <link id="swatchcss" rel="stylesheet" href="https://unpkg.com/bulmaswatch@0.8.1/cosmo/bulmaswatch.min.css"></link>
     <script src="swatchpicker.js" defer></script>
-  </head>
-  <body>
-    <h1>swatch picker web component</h1>
-    <select is="swatch-picker" onchange="document.getElementById('swatchcss').href = this.value"></select>
-  </body>
+</head>
+<body>
+  	<div class="section">
+	  	<div class="container">
+	    	<h1 class="title">Swatch Picker Web Component</h1>
+	    	<select is="swatch-picker" onchange="document.getElementById('swatchcss').href = this.value"></select>
+	    	<ul>
+	    	<li> <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components"> mdn web components</a> > </li>
+	    	<li> <a href="https://github.com/ddupas/swatchpicker"> Swatch Picker Source Code </a> </li>
+		</div>
+	</div>
+</body>
 </html>
