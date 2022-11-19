@@ -1,4 +1,6 @@
 # swatchpicker
 A Bulmaswatch select web component
 
-[https://ddupas.github.io/swatchpicker/] pages preview of example (index.html)
+See index.html for example use.
+
+(https://ddupas.github.io/swatchpicker/) [github pages preview]
