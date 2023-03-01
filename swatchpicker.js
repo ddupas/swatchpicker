@@ -20,7 +20,14 @@ class SwatchPicker extends HTMLSelectElement {
 	
 	connectedCallback() {
 		var v = localStorage.getItem('swatchpicker.value');
+		if (v == null) {
+			v = 'https://unpkg.com/bulmaswatch@0.8.1/cosmo/bulmaswatch.min.css';
+		}
+		
 		var t = localStorage.getItem('swatchpicker.text');
+		if (t == null) {
+			t = 'Default';
+		}
 		const option = document.createElement('option');
         option.setAttribute('value',v);
 	    option.textContent = t;
